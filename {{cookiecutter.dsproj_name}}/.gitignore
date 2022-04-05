@@ -1,0 +1,22 @@
+#datafs下离线数据文件
+datafs/*.csv
+datafs/*.xlsx
+datafs/*.txt
+datafs/*.sql
+
+# ipynb不适合多人协作
+exploration/*.ipynb 
+
+#日志动态产生
+logs/*.log
+
+#文档重现生成
+docs/*.rst
+
+#venv完整的环境
+.venv
+
+#spyder的项目元数据
+.spyproject
+
+.DS_Store 

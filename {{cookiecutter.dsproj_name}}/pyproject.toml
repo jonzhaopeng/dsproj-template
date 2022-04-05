@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "dsfutu"
+version = "0.1.0"
+description = "futu dsproj"
+authors = ["jonzhaopeng <mobiwolf2011@icloud.com>"]
+
+[[tool.poetry.source]]
+name = "baidu"
+url = "https://mirror.baidu.com/pypi/simple/"
+default = true
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+
+# 富途SDK
+futu-api = "^6.1.2"
+
+# 数据处理
+pandas = "^1.4.1"
+numpy = "^1.22.3"
+
+# 图表展示
+matplotlib = "3.5.1"
+seaborn = "0.11.2"
+
+# Web应用
+streamlit = "1.7.0"
+
+# 远程Kernel
+spyder-kernels = "^2.3.0"
+
+# 机器学习
+scikit-learn = "1.0.2"
+scipy = "1.8.0"
+
+#控制数据和产品的质量
+pytest = "7.1.1"
+
+[tool.poetry.dev-dependencies]
+# 探索开发
+pyqt5-sip = "^12.9.1"
+pyqt5-qt5 = "^5.15.2"
+pyqtwebengine-qt5 = "^5.15.2"
+git-cola = "^4.0.0-alpha.0"
+spyder = "^5.3.0"
+sympy = "^1.10.1"
+cython = "^0.29.28"
+spyder-terminal = "^1.2.2"
+
+
+[build-system]
+#requires = ["setuptools", "wheel", "scikit-build", "cmake", "numpy"]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
