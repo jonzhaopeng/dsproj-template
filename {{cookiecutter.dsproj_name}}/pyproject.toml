@@ -21,6 +21,7 @@ numpy = "^1.22.3"
 
 # 图表展示
 matplotlib = "3.5.1"
+chineseize-matplotlib = "^1.2"
 seaborn = "0.11.2"
 
 # Web应用
