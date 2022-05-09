@@ -1,5 +1,8 @@
 import os
 
+
+# TODO 以下Python3 命令应该修改为 subprocess.check_call 
+
 venv_pipeline = f"""
 python3 -m venv --system-site-packages .venv
 source .venv/bin/activate
